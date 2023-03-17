@@ -1,0 +1,72 @@
+li{
+    list-style: none;
+}
+
+body{
+    
+}
+.header {
+    display: flex;
+}
+.container {
+    width: 1210px;
+    margin: 0 auto; 
+}
+.logo {
+    margin: 0 632px 0 0;
+}
+.logo-text {
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu-item {
+    list-style-type: none;
+}
+.head {
+    text-align: center;
+}
+.head-style {
+}
+.section-one-list {
+}
+.section-one-list-item {
+}
+.item-image {
+}
+.item-head {
+}
+.item-text {
+}
+.section-two-text {
+}
+.section-two-list {
+}
+.section-two-list-item {
+}
+.imege-two-item {
+}
+.item-two-head {
+}
+.item-two-text {
+}
+.footer-text {
+}
+.footer-input {
+}
+.footer-button {
+}
+
+
+
+
+/* .one {
+    border: 2px solid black;
+}
+.padding {
+    padding: 10px 15px 20px 30px ;
+}
+.margin {
+    margin: 20px 30px 40px 15px;
+} */
