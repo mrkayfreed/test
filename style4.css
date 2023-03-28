@@ -1,9 +1,14 @@
 li{
-    list-style-type: none;
+    list-style: none;
+}
+
+ul,p,button{
+    margin: 0px;
+    padding: 0px;
 }
 body{
-
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -157,14 +162,14 @@ body{
     color: #B6B6B6;
 
 }
-.footer-line {
-    margin: auto;
-    margin-top: 80px;
-    width: 1200px;
-    height: 1px;
-    background-color: black;
-}
 .footer {
+    border-top: 1px solid #B6B6B6;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+.footer-division {
 }
 .footer-text {
     font-family: 'Montserrat';
@@ -174,17 +179,28 @@ body{
     line-height: 17px;
 
     color: #333333;
+
+    margin-right: 523px;
+    padding: 22px 0;
 }
 .footer-style {
     color: #F38181;
 }
 .footer-input {
-    padding: 12px 30px;
+    /* padding: 12px 30px; */
+    border: 1px solid #B6B6B6;
+    width: 230px;
+    height: 39px;
 }
 .footer-button {
-    padding: 12px 38px;
+    /* padding: 12px 38px; */
+    width: 150px;
+    height: 40px;
     background-color: #95E1D3;
     color: white;
+    border: none;
+    cursor: pointer;
+
 }
 
 /* .one {
