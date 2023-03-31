@@ -137,11 +137,52 @@ body{
 .section-two-list-item {
     text-align: center;
 }
-.imege-two-item {
+.team-imege {
+    width: 380px;
+    height: 470px;
+    position: relative;
+    top: -10px;
+    left: -10px;
 }
+.first{
+    background: url(./img/first-man\ 1.jpg);
+}
+.second{
+    background: url(./img/second-man\ 1.jpg);
+}
+.third{
+    background: url(./img/third-man\ 1.png);
+}
+.team-imege:hover{
+    background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+}
+.contacts {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 
-.imege-two-item:hover{
-    background-color: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    opacity: 0;
+}
+.contacts:hover{
+    opacity: 100%;
+}
+.i{
+    width: 57px;
+    height: 57px;
+    background: #FCE38A;
+
+}
+.facebook {
+}
+.twitter {
+}
+.pinterest {
+}
+.instagram {
+}
+.team-text {
+}
+.imege-two-item {
 }
 .item-two-head {
     font-family: 'Montserrat';
