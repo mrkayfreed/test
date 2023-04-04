@@ -8,14 +8,16 @@ ul,p,button{
 }
 body{
 }
-
-.header {
-    display: flex;
-    align-items: center;
-}
 .container {
     width: 1210px;
     margin: 0 auto; 
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 68px;
 }
 .logo {
     margin: 0 632px 0 0;
@@ -58,9 +60,9 @@ body{
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
-
     color: #333333;
 
+    margin-bottom: 40px;
 }
 .head-style {
     font-family: 'Montserrat';
@@ -68,14 +70,15 @@ body{
     font-weight: 700;
     font-size: 30px;
     line-height: 37px;
-
-    color: #333333;
+    color: #333333; 
 }
 .line-head {
     margin: auto;
     width: 60px;
     height: 4px;
     background-color: #F38181;
+
+    margin-bottom: 65px;
 }
 .section-one-list {
     display: flex;
@@ -137,13 +140,6 @@ body{
 .section-two-list-item {
     text-align: center;
 }
-.team-imege {
-    width: 380px;
-    height: 470px;
-    position: relative;
-    top: -10px;
-    left: -10px;
-}
 .first{
     background: url(./img/first-man\ 1.jpg);
 }
@@ -153,24 +149,47 @@ body{
 .third{
     background: url(./img/third-man\ 1.png);
 }
+.team-imege {
+    width: 380px;
+    height: 470px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
 .team-imege:hover{
     background: linear-gradient(180deg, rgba(239, 139, 138, 0.8) 0%, rgba(229, 207, 130, 0.8) 100%);
+    opacity: 100;
 }
 .contacts {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-
-    opacity: 0;
+    gap: 1px;
+    column-gap: 1px;
 }
 .contacts:hover{
-    opacity: 100%;
+
 }
 .i{
     width: 57px;
     height: 57px;
     background: #FCE38A;
-
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.i:hover{
+    background: #95E1D3;
+}
+.i img{
+    width: 26px;
+    height: 26px    ;
 }
 .facebook {
 }
