@@ -85,6 +85,8 @@ body{
     column-gap: 73.22px;
     row-gap: 100px;
     flex-wrap: wrap;
+    
+    margin-bottom: 100px;
 }
 .section-one-list-item {
     width: 327px;
@@ -117,10 +119,11 @@ body{
 }
 .line {
     margin: auto;
-    margin-top: 30px;
     width: 60px;
     height: 4px;
     background-color: #F38181;
+
+    margin-bottom: 45px;
     
 }
 .section-two-text {
@@ -132,6 +135,8 @@ body{
     line-height: 18px;
 
     color: #B6B6B6;
+
+    margin-bottom: 27px;
 }
 .section-two-list {
     display: flex;
@@ -225,6 +230,7 @@ body{
 .footer {
     border-top: 1px solid #B6B6B6;
     margin: 0 auto;
+    margin-top: 80px;
 
     display: flex;
     align-items: center;
