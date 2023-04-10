@@ -1,12 +1,45 @@
-li{
-    list-style: none;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
-ul,p,button{
-    margin: 0px;
-    padding: 0px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-body{
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 .container {
     width: 1210px;
@@ -53,8 +86,13 @@ body{
     border-bottom: 3px solid #F38181;
     cursor: pointer;    
 }
-.head {
+.section{
+    margin-bottom: 100px;
+}
+.center{
     text-align: center;
+}
+.head {
     font-family: 'Kaushan Script';
     font-size: 24px;
     font-weight: 400;
@@ -62,7 +100,7 @@ body{
     letter-spacing: 0em;
     color: #333333;
 
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .head-style {
     font-family: 'Montserrat';
@@ -78,18 +116,18 @@ body{
     height: 4px;
     background-color: #F38181;
 
+    margin-top: 30px;
     margin-bottom: 65px;
 }
 .section-one-list {
     display: flex;
-    column-gap: 73.22px;
+    column-gap: 75px;
     row-gap: 100px;
     flex-wrap: wrap;
-    
-    margin-bottom: 100px;
 }
 .section-one-list-item {
-    width: 327px;
+    flex-basis: calc((100% - 150px) / 3);
+    /* width: 327px; */
     display: flex;
     column-gap: 20px;
     flex-direction: row;
@@ -123,6 +161,7 @@ body{
     height: 4px;
     background-color: #F38181;
 
+    margin-top: 30px;
     margin-bottom: 45px;
     
 }
@@ -230,7 +269,6 @@ body{
 .footer {
     border-top: 1px solid #B6B6B6;
     margin: 0 auto;
-    margin-top: 80px;
 
     display: flex;
     align-items: center;
